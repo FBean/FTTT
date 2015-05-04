@@ -1,0 +1,123 @@
+2015-04-30 00:30:12.7550|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+System.ArgumentNullException: Failed Null Check on 'commit'
+参数名: commit
+   在 GitHub.Helpers.Ensure.ArgumentNotNull(Object value, String name)
+   在 GitHub.Models.CommitGroup.InsertLocalCommit(ICommitModel commit)
+   在 GitHub.ViewModels.NewCommitViewModel.<CreateCommitImpl>b__3c(ICommitModel commit)
+   在 System.Reactive.Linq.ObservableImpl.Do`1._.OnNext(TSource value)
+2015-04-30 00:29:27.1854|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\GitHub.exe
+2015-04-30 00:29:27.1984|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub for Windows
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| #########################################
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| GitHub for Windows started. VERSION: 2.13.2.4
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| Build version: b5813af694417341067e77ba27146bdc57169dba
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***************************************
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***        Have a problem?          ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***    Email support@github.com     ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***      and include this file      ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| ***************************************
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| OS Version: Windows 7 Service Pack 1 6.1.7601.65536 amd64
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| CLR Version: 4.0.30319.17929
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| Current culture: zh-CN
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| Terminal Services session: no
+2015-04-30 00:29:27.2284|INFO|thread: 4|StartupLogging| Location: C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\GitHub.exe
+2015-04-30 00:29:27.2374|INFO|thread: 4|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-04-30 00:29:27.2604|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:27.2604|INFO|thread: 4|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;D:\Program Files (x86)\Java SE DK\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;c:\windows\system32
+2015-04-30 00:29:27.2604|INFO|thread: 4|StartupLogging| =====================================================
+2015-04-30 00:29:27.2604|INFO|thread: 4|StartupLogging|  DIAGNOSTICS                                        |
+2015-04-30 00:29:27.2604|INFO|thread: 4|StartupLogging| =====================================================
+2015-04-30 00:29:27.2604|INFO|thread: 4|StartupLogging| Git Extracted: 'True:
+2015-04-30 00:29:27.2604|INFO|thread: 4|StartupLogging| PortableGit Dir Exists: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-04-30 00:29:27.2644|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-04-30 00:29:27.2644|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-04-30 00:29:27.2644|INFO|thread: 4|StartupLogging| Git Executable Exists: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-04-30 00:29:27.2644|INFO|thread: 4|StartupLogging| ----------------------------------------------------
+2015-04-30 00:29:27.2644|INFO|thread: 4|StartupLogging| PATH: D:\Program Files (x86)\Java SE DK\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;c:\windows\system32
+2015-04-30 00:29:27.2994|INFO|thread: 4|StartupLogger|Proxy information: (None)
+2015-04-30 00:29:27.2994|INFO|thread: 4|StartupLogger|Couldn't fetch creds for proxy
+2015-04-30 00:29:27.4394|INFO|thread: 1|App|Checking whether application is network deployed.
+2015-04-30 00:29:27.4754|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\Images\App.ico'
+2015-04-30 00:29:27.7704|INFO|thread: 4|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2015-04-30 00:29:27.8334|INFO|thread: 4|MsysGitCertificateInstaller|Found certificate cache, loaded 162 certificates
+2015-04-30 00:29:27.8334|INFO|thread: 4|MsysGitCertificateInstaller|Created certificate bundle with 169 entries
+2015-04-30 00:29:28.7634|INFO|thread: 1|CommandLineToolsExtractor|Portable Git and Git LFS are already extracted
+2015-04-30 00:29:28.7634|INFO|thread: 1|GitClient|Installing git lfs filters
+2015-04-30 00:29:28.7634|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:28.7634|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-04-30 00:29:28.7844|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'lfs init ', Working Directory: C:\Users\Bean\AppData\Local\Temp\
+2015-04-30 00:29:28.7944|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-04-30 00:29:28.7944|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-04-30 00:29:29.3615|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2015-04-30 00:29:30.2915|INFO|thread:15|AsyncReaderWriterLock|Acquiring concurrent lock for operation 1: 'GetRecentBranchNames' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:30.2915|INFO|thread:15|AsyncReaderWriterLock|Acquired concurrent lock for operation 1: 'GetRecentBranchNames' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:30.3245|INFO|thread:21|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:30.3245|INFO|thread:21|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-04-30 00:29:30.3245|INFO|thread:21|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: F:\GitHub\test2\
+2015-04-30 00:29:30.3685|INFO|thread:10|AsyncReaderWriterLock|Released concurrent lock for operation 1: 'GetRecentBranchNames' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:30.5605|INFO|thread:13|GitClient|Loading commits for repo: F:\GitHub\test2
+2015-04-30 00:29:30.5795|INFO|thread:13|RepositoryConnection|Loaded '4' commits for repo: F:\GitHub\test2\.
+2015-04-30 00:29:30.8186|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-04-30 00:29:30.8296|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 2: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:30.8296|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 2: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:30.8496|INFO|thread:21|AsyncReaderWriterLock|Released concurrent lock for operation 2: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.4206|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.4206|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.4206|INFO|thread:15|GitClient|Loading commits for repo: F:\GitHub\test2
+2015-04-30 00:29:31.4206|INFO|thread:21|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:31.4206|INFO|thread:21|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-04-30 00:29:31.4206|INFO|thread:21|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\GitHub\test2\
+2015-04-30 00:29:31.4696|INFO|thread:15|RepositoryConnection|Loaded '4' commits for repo: F:\GitHub\test2\.
+2015-04-30 00:29:31.4886|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 4: 'MergeStatus' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.4886|INFO|thread:15|AsyncReaderWriterLock|Acquired concurrent lock for operation 4: 'MergeStatus' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5016|INFO|thread:13|AsyncReaderWriterLock|Acquiring concurrent lock for operation 5: 'GetBranch' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5016|INFO|thread:13|AsyncReaderWriterLock|Acquired concurrent lock for operation 5: 'GetBranch' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5016|INFO|thread:23|AsyncReaderWriterLock|Released concurrent lock for operation 4: 'MergeStatus' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5146|INFO|thread:15|GitClient|Loading commits for repo: F:\GitHub\test2
+2015-04-30 00:29:31.5146|INFO|thread:15|RepositoryConnection|Loaded '4' commits for repo: F:\GitHub\test2\.
+2015-04-30 00:29:31.5456|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent lock for operation 6: 'GetUniqueCommits' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5456|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent lock for operation 6: 'GetUniqueCommits' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5456|INFO|thread:10|AsyncReaderWriterLock|Released concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5566|INFO|thread:24|AsyncReaderWriterLock|Released concurrent lock for operation 5: 'GetBranch' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.5566|INFO|thread:25|AsyncReaderWriterLock|Released concurrent lock for operation 6: 'GetUniqueCommits' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:31.7316|INFO|thread: 1|RepositoryViewModel|Created Shadow Backup for Repo: F:\GitHub\test2 => 2f1a8d67f4eec8f43cae1f3a4a1d2ac7001f36f9 in 211ms
+2015-04-30 00:29:31.7826|INFO|thread: 1|SyncButtonViewModel|Refresh ahead/behind counts skipped because branch isn't published: refs/heads/master
+2015-04-30 00:29:31.7826|INFO|thread: 1|SyncButtonViewModel|Refresh ahead/behind counts skipped because branch isn't published: refs/heads/master
+2015-04-30 00:29:32.3606|INFO|thread: 1|RepositoryHost|Log in from cache for login 'FBean' to host 'https://api.github.com/' SUCCEEDED
+2015-04-30 00:29:32.3827|INFO|thread:24|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'FBean' and user.email = '1561989230@qq.com'
+2015-04-30 00:29:32.4037|INFO|thread:24|SSHKeyHelper|ssh-agent already running
+2015-04-30 00:29:32.4117|INFO|thread:24|PortablePackageManager|Already extracted lfs-amd64.7z, returning 100%
+2015-04-30 00:29:32.4117|INFO|thread:24|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:32.4117|INFO|thread:24|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-04-30 00:29:32.4117|INFO|thread:24|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\ssh-add.exe', Args: '"C:\Users\Bean\.ssh\github_rsa"', Working Directory: C:\Users\Bean\AppData\Local\Temp\
+2015-04-30 00:29:32.5467|INFO|thread: 4|SSHKeyHelper|Found existing SSH key pair
+2015-04-30 00:29:37.4889|INFO|thread:23|SoftwareUpdateViewModel|Checking for new version
+2015-04-30 00:29:42.6862|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+System.ArgumentNullException: Failed Null Check on 'commit'
+参数名: commit
+   在 GitHub.Helpers.Ensure.ArgumentNotNull(Object value, String name)
+   在 GitHub.Models.CommitGroup.InsertLocalCommit(ICommitModel commit)
+   在 GitHub.ViewModels.NewCommitViewModel.<CreateCommitImpl>b__3c(ICommitModel commit)
+   在 System.Reactive.Linq.ObservableImpl.Do`1._.OnNext(TSource value)
+2015-04-30 00:29:52.2848|INFO|thread: 1|PortablePackageManager|Already extracted posh-git.7z, returning 100%
+2015-04-30 00:29:52.3058|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:52.3058|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14\NativeBinaries/x86;D:\Program Files (x86)\Java SE DK\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;c:\windows\system32
+2015-04-30 00:29:52.3058|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Windows\System32\WindowsPowerShell\v1.0\Powershell.exe', Args: '-NoExit -ExecutionPolicy Unrestricted -File "C:\Users\Bean\AppData\Local\GitHub\PoshGit_869d4c5159797755bc04749db47b166136e59132\profile.example.ps1"', Working Directory: F:\GitHub\test2
+2015-04-30 00:29:55.5040|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-04-30 00:29:55.5040|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent lock for operation 7: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.5040|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 7: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.5380|INFO|thread:20|AsyncReaderWriterLock|Released concurrent lock for operation 7: 'LoadHeadForRepo' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.5500|INFO|thread:15|AsyncReaderWriterLock|Acquiring concurrent lock for operation 8: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.5500|INFO|thread:15|AsyncReaderWriterLock|Acquired concurrent lock for operation 8: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.5500|INFO|thread: 4|GitClient|Loading commits for repo: F:\GitHub\test2
+2015-04-30 00:29:55.5500|INFO|thread: 4|RepositoryConnection|Loaded '4' commits for repo: F:\GitHub\test2\.
+2015-04-30 00:29:55.5500|INFO|thread:20|GitEnvironment|Process set up with this SSH Agent info: 9476:/tmp/ssh-pxbTRGr7ja2B/agent.9328
+2015-04-30 00:29:55.5500|INFO|thread:20|GitEnvironment|PATH is C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Bean\AppData\Local\Apps\2.0\G4HDQMZ8.1N3\4BP680KK.LNP\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14;C:\Users\Bean\AppData\Local\GitHub\lfs-amd64_0.5.0-pre2;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-04-30 00:29:55.5500|INFO|thread:20|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Bean\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\GitHub\test2\
+2015-04-30 00:29:55.5790|INFO|thread:21|GitClient|Loading commits for repo: F:\GitHub\test2
+2015-04-30 00:29:55.5790|INFO|thread:21|RepositoryConnection|Loaded '4' commits for repo: F:\GitHub\test2\.
+2015-04-30 00:29:55.6290|INFO|thread:13|AsyncReaderWriterLock|Released concurrent lock for operation 8: 'LoadFilesInWorkingDirectory' on resource F:\GitHub\test2\.git
+2015-04-30 00:29:55.6290|INFO|thread: 1|SyncButtonViewModel|Refresh ahead/behind counts skipped because branch isn't published: refs/heads/master
